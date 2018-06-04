@@ -1,0 +1,18 @@
+@import 'zmienne';
+
+.navbar.navbar-color{
+    background-color: #fff;
+    
+    .navbar-nav.margin-left{
+    margin-left: auto;
+    
+        .formatting{
+        margin-right: 10px;
+        padding: 5px 30px;
+           
+            .nav-link.nav-color{
+            color: #1ac056;
+            }
+        }
+    }
+}

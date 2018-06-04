@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,900|Roboto:100,400,900&amp;subset=latin-ext" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio w Bootstrapie</title>
+
+    <!--    Bootstrap     -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--    css     -->
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <!--
+    nav, header, section, section, Elemety blokowe: h1, p, div, ol, ul, div, section... Elementy liniowe: figure, img, span, 
+    
+    Moje portfolio - 4 divy;
+-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav margin-left">
+                <li class="nav-item formatting">
+                    <a class="nav-link nav-color" href="#omnie">O mnie</a>
+                </li>
+                <li class="nav-item formatting">
+                    <a class="nav-link nav-color" href="#skills">Umiejętności</a>
+                </li>
+                <li class="nav-item formatting">
+                    <a class="nav-link nav-color" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item formatting">
+                    <a class="nav-link nav-color" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="mainhead">
+        <div>
+            <h1>Paweł <span class="green">Zawiślak</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </header>
+    <section id="omnie">
+        <div class="container-fluid">
+            <h2>O <span class="green">mnie</span></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <figure>
+                        <img src="../app/css/img/jan-nowak.jpg">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur fugiat veritatis, obcaecati alias necessitatibus, cumque officia tenetur animi! Laboriosam, natus illo ipsum repellendus alias eveniet animi amet similique voluptatum eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea distinctio nam earum placeat eos quos nostrum minima dolorem quia, aut provident, molestiae ut repudiandae laudantium maiores dicta. Cum, quibusdam, beatae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="skills">
+        <header class="skillshead">
+            <h2>Moje <span class="green">umiejętności</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem atque eaque, eligendi ad repudiandae excepturi tenetur, officia impedit magnam, ullam commodi at.</p>
+        </header>
+        <div class="container-fluid skills-center">
+            <div class="row ">
+                <div class="col-md-3">
+                    <figure>
+                        <img src="../app/css/icons/html5.png" alt="">
+                        <figcaption>HTML 5</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="../app/css/icons/css3.png" alt="">
+                        <figcaption>CSS 3</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="../app/css/icons/js.png" alt="">
+                        <figcaption>JAVASCRIPT</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure>
+                        <img src="../app/css/icons/jquery.png" alt="">
+                        <figcaption>JQUERY</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    background maska border i content-->
+    <section id="portfolio">
+        <h2>Moje <span class="green">portfolio</span></h2>
+        <div class="container-fluid portfolio-center">
+            <div class="row">
+                <div class="col-md-4 back photo1">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <h4>Lorem Ipsum</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor officia aliquid, provident officiis. Repudiandae sapiente, dolores voluptates deleniti quam omnis praesentium asperiores quia officia sed, placeat sint perspiciatis libero incidunt?</p>
+                                <h5>Lorem ipsum drugi raz</h5>
+                                <p>Tu będzie sobie jakaś tam treść jest pompa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 back photo2">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <h4>Lorem Ipsum</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor officia aliquid, provident officiis. Repudiandae sapiente, dolores voluptates deleniti quam omnis praesentium asperiores quia officia sed, placeat sint perspiciatis libero incidunt?</p>
+                                <h5>Lorem ipsum drugi raz</h5>
+                                <p>Tu będzie sobie jakaś tam treść jest pompa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 back photo3">
+                    <div class="mask">
+                        <div class="border">
+                            <div class="content">
+                                <h4>Lorem Ipsum</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor officia aliquid, provident officiis. Repudiandae sapiente, dolores voluptates deleniti quam omnis praesentium asperiores quia officia sed, placeat sint perspiciatis libero incidunt?</p>
+                                <h5>Lorem ipsum drugi raz</h5>
+                                <p>Tu będzie sobie jakaś tam treść jest pompa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-md-6 contact-margin">
+                    <h2>Paweł <span class="green">Zawiślak</span></h2>
+                    <address>
+                            ul.Mistrzowska 10/10<br/>
+                            31-600 Kraków<br/><br/>
+                            tel: 789 634 215<br/>
+                            mail: pawelz.zawislak@gmail.com            
+                        </address>
+                    <div class="media">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 contact-margin">
+                    <form action="">
+                        <input type="text" placeholder="Imię"><br/>
+                        <input type="text" placeholder="Nazwisko"><br/>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Napisz do nas!"></textarea>
+                        <input type="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Paweł Zawiślak</p>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

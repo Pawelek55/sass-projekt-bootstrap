@@ -1,0 +1,74 @@
+@import 'zmienne';
+
+#portfolio{
+    padding-top: 150px;
+    
+    @include greeny;
+    
+    h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    
+    .portfolio-center{
+    width: 70%;
+    margin-bottom: 400px;
+    }
+    
+    .one{
+/*    ustawiamy w procentach */
+    width: 70%; 
+    margin: auto;
+    margin-bottom: 300px;
+    }
+    
+    .back{ 
+    height: 304px;
+    margin: 0;
+    background-size: cover;    
+    }
+    
+    .photo1{
+    background-image: url(img/portfolio1.jpg);
+    }
+
+    .photo2{
+    background-image: url(img/portfolio4.jpg);
+    }
+
+    .photo3{
+    background-image: url(img/portfolio2.jpg);
+    }
+    
+    .mask{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+        
+        .border{
+        border: 2px solid #fff;
+        height: 100%;
+        padding: 0 10px;
+        position: relative;
+            
+            .content {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                color: #fff;
+                font-size: 15px;
+            }
+        }
+    }
+    
+    .mask:hover {
+    opacity: 1;
+    }
+}

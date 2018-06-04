@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+}
+
+.navbar.navbar-color {
+    background-color: #fff;
+}
+
+.navbar.navbar-color .navbar-nav.margin-left {
+    margin-left: auto;
+}
+
+.navbar.navbar-color .navbar-nav.margin-left .formatting {
+    margin-right: 10px;
+    padding: 5px 30px;
+}
+
+.navbar.navbar-color .navbar-nav.margin-left .formatting .nav-link.nav-color {
+    color: #1ac056;
+}
+
+#mainhead {
+    background-image: url(img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+#mainhead div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#mainhead h1 {
+    margin-bottom: 40px;
+}
+
+#mainhead h1 span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+#mainhead h1, #mainhead h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 5em;
+}
+
+#mainhead h2 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+#omnie {
+    background-color: #fff;
+    text-align: center;
+    padding: 0 5%;
+    padding-top: 100px;
+}
+
+#omnie span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+#omnie h2 {
+    color: #000;
+    font-size: 3em;
+    font-weight: 100;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#omnie figure img {
+    width: 50%;
+    padding-top: 100px;
+}
+
+#omnie div p {
+    color: #000;
+    text-align: left;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+#skills {
+    text-align: center;
+    padding-top: 160px;
+}
+
+#skills span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+#skills h2 {
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+
+#skills div {
+    padding: 50px 0;
+}
+
+#skills div figure figcaption {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#skills .skills-center {
+    width: 80%;
+}
+
+#portfolio {
+    padding-top: 150px;
+}
+
+#portfolio span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+#portfolio h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#portfolio .portfolio-center {
+    width: 70%;
+    margin-bottom: 400px;
+}
+
+#portfolio .one {
+    /*    ustawiamy w procentach */
+    width: 70%;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+#portfolio .back {
+    height: 304px;
+    margin: 0;
+    background-size: cover;
+}
+
+#portfolio .photo1 {
+    background-image: url(img/portfolio1.jpg);
+}
+
+#portfolio .photo2 {
+    background-image: url(img/portfolio4.jpg);
+}
+
+#portfolio .photo3 {
+    background-image: url(img/portfolio2.jpg);
+}
+
+#portfolio .mask {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#portfolio .mask .border {
+    border: 2px solid #fff;
+    height: 100%;
+    padding: 0 10px;
+    position: relative;
+}
+
+#portfolio .mask .border .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+#portfolio .mask:hover {
+    opacity: 1;
+}
+
+#contact {
+    color: #fff;
+    background-color: #213b50;
+}
+
+#contact span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+#contact h2 {
+    font-weight: 100;
+    font-size: 4em;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+#contact .contact-margin {
+    margin: 100px 0 100px 0;
+}
+
+#contact address {
+    font-size: 20px;
+    padding: 20px 100px;
+}
+
+#contact .media {
+    padding: 80px 50px;
+    padding-left: 100px;
+}
+
+#contact .media a {
+    font-size: 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#contact .media a:hover {
+    color: #1ac056;
+    border: 2px solid #1ac056;
+    border: 1px solid #1ac056;
+}
+
+#contact form {
+    text-align: center;
+}
+
+#contact form input, #contact form textarea {
+    padding: 20px 10px;
+    margin: 5px;
+    width: 60%;
+    background-color: #042966;
+    border: 0;
+}
+
+footer {
+    background-color: #061b3d;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    padding: 20px 100px;
+    color: #fff;
+}

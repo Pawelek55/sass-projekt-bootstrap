@@ -1,0 +1,60 @@
+#contact{
+    color: $white;
+    background-color: #213b50;
+    
+    @include greeny;
+    
+    h2{
+    font-weight: 100;
+    font-size: 4em;
+    padding: 20px;
+    padding-left: 100px;
+    }
+    
+    .contact-margin{
+    margin: 100px 0 100px 0;
+    }
+    
+    address{
+    font-size: 20px;
+    padding: 20px 100px;
+    }
+    
+    .media{
+    padding: 80px 50px;
+    padding-left: 100px;
+        
+        a{
+        font-size: 2em;
+        display: inline-block;
+        text-decoration: none;
+        color: $white;
+        border: 1px solid $white;
+        text-align: center;
+        margin: 0 20px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        }
+        
+        a:hover {
+            color: $green;
+            border: 2px solid $green;
+            border: 1px solid $green;
+        }
+    }
+    
+    form{
+    text-align: center;
+        
+        input, textarea{
+        padding: 20px 10px;
+        margin: 5px;
+        width: 60%;
+        background-color: $darkblue;
+        border: 0;
+        }
+    }
+
+}

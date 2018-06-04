@@ -1,0 +1,29 @@
+@import 'zmienne';
+
+#skills{
+    text-align: center;
+    padding-top: 160px;
+    
+    @include greeny;
+    
+    h2{
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    }
+    
+    div{
+    padding: 50px 0;
+        
+        figure figcaption{
+        padding: 10px;
+        font-size: 30px;
+        }
+
+    }
+    
+    .skills-center{
+    width: 80%;
+    }
+}

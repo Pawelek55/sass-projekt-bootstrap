@@ -1,0 +1,16 @@
+$blue: #0ed8d6;
+$darkblue: #042966;
+$grey: #777777;
+$black: #000;
+$white: #fff;
+$green: #1ac056;
+$fontRoboto: 'Roboto', sans-serif;
+$fontLato: 'Lato', sans-serif;
+
+
+@mixin greeny{
+    span{
+        font-weight: 400;
+        color: $green;
+    }
+}
